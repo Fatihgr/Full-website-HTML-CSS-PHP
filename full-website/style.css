@@ -118,6 +118,8 @@ h3 {
     width: 1200px;
     height: auto;
     margin: auto;
+    flex-direction: row;
+
 }
 
 #container2 {
@@ -196,7 +198,202 @@ span {
 }
 
 .card {
+    padding: 0;
+    overflow: hidden;
     width: 320px;
     height: 350px;
     border: 1px solid #ddd;
+    display: inline-block;
+    transition: .5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.baslikcard {
+    font-size: 18px;
+    color: #003666;
+}
+
+.cardp {
+    color: #003666;
+}
+
+.img-fluidd {
+    max-width: 100%;
+    height: 200px !important;
+    height: auto;
+}
+
+#ekip {
+    background-color: #003666;
+    padding: 50px;
+    height: 890px;
+    text-align: center;
+}
+
+#ekiph3 {
+    color: white;
+}
+
+.sutun-sol-sag {
+    width: 385px;
+    float: left;
+    padding: 50px;
+}
+
+.oval {
+    border-radius: 50%;
+}
+
+.ekipisim {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.ekipp {
+    color: #888;
+    font-size: 18px;
+}
+
+.social {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50px;
+    margin: 1.5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.social:hover {
+    transform: scale(1.1);
+}
+
+.sutun-sol-sag img {
+    transition: .5s;
+}
+
+.sutun-sol-sag img:hover {
+    transform: translateY(-10px);
+}
+
+#iletisim {
+    background: url(/images/iletisimbg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+}
+
+#h3iletisim {
+    color: white;
+}
+
+#iletisimopak {
+    background: rgba(255, 255, 255, .2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.formgroup {
+    float: left;
+    width: 700px;
+    text-align: left;
+    height: 500px;
+}
+
+#solform {
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#sagform {
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(70, 70, 70);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #7DA5AD;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#adres {
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+
+#adresbaslik {
+    font-size: 30px;
+    color: black;
+}
+
+.adresp {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+#copyright {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#up {
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 12px;
+    margin-top: 25px;
+}
+
+#socialfooter2 {
+    margin-bottom: 22px;
+}
+
+#gonder {
+    transition: .3s;
+}
+
+#gonder:hover {
+    background-color: #358ea1;
 }

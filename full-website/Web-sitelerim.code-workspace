@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../Users/Fatih Aytuğ Gör/Desktop/gituploads/Web-sitelerim"
+		},
+		{
+			"path": "../../../Users/Fatih Aytuğ Gör/Desktop/full-website"
+		}
+	],
+	"settings": {
+		"background.enabled": false,
+		"liveServer.settings.multiRootWorkspaceName": "full-website",
+		"git.ignoreLimitWarning": true
+	}
+}
